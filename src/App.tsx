@@ -10,8 +10,9 @@ function App() {
     <div className="App">
         <NavBar/>
         <header className="App-header">
-        <Card title="Title" description="description"/>
-        <Tag statusText="High"/>
+            <Card title="Title" description="description">
+                <Tag statusText="High"/>
+            </Card>
       </header>
     </div>
   );
