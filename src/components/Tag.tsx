@@ -1,9 +1,16 @@
-
 import React from "react";
 
-const Tag = () => {
+
+interface TagArgs {
+    status?: string;
+    statusText: string
+}
+
+const Tag = (args: TagArgs) => {
     return(
-        <h1>Hello</h1>
+        <div className="inline-block bg-pink-500 p-0.5 rounded border-pink-700">
+            <p className="text-sm">{args.statusText}</p>
+        </div>
     )
 }
 export default Tag;
