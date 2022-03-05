@@ -11,7 +11,7 @@ function App() {
           <NavBar />
       </header>
         <div className="flex flex-row min-h-max">
-            <main className="grid gap-4 grid-cols-4 py-4 w-10/12">
+            <main className="grid gap-4 grid-cols-4 py-4 w-10/12 my-2 mx-auto">
                 <div className="p-2 bg-gray-100 border-t-purple-200 border-t-4"><Card>Card</Card></div>
                 <div className="p-2 bg-gray-100 border-t-orange-200 border-t-4"><Card>Card</Card></div>
                 <div className="p-2 bg-gray-100 border-t-pink-200 border-t-4"><Card>Card</Card></div>
