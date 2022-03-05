@@ -6,7 +6,7 @@ interface CardArgs {
 
 const Card = (args: CardArgs) => {
   return (
-    <div className="bg-white rounded shadow border p-6 w-64">
+    <div className="bg-white rounded shadow border p-6 w-full">
       {args.children}
     </div>
   );
