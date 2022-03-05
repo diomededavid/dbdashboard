@@ -4,7 +4,7 @@ import logo from "../images/db-asterisk-logo-white.svg";
 
 const  NavBar = () => {
   return(
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800 sticky top-0">
+      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800 sticky top-0 absolute left-0">
           <div className="container flex flex-wrap justify-between items-center mx-auto">
               <a href="#" className="flex">
                   <img src={logo} alt="Digital Blender Logo" width="100"/>
