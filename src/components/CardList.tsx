@@ -1,15 +1,14 @@
 import React from "react";
 interface CardArgs {
-  children?: any;
   title: string;
+  body: string;
 }
 
-const Card = (args: CardArgs) => {
+const CardList = (args: CardArgs) => {
   return (
     <div className="bg-white rounded shadow border p-6 w-full">
-      <h1>Title</h1>
-      {args.children}
+      <h1>{args.title}</h1>
     </div>
   );
 };
-export default Card;
+export default CardList;
