@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/db-asterisk-logo-white.svg";
+import Avatar from "./Avatar";
 
 const NavBar = () => {
   return (
@@ -60,6 +61,7 @@ const NavBar = () => {
                 Contact
               </a>
             </li>
+            <Avatar />
           </ul>
         </div>
       </div>
