@@ -1,7 +1,6 @@
 import React from "react";
 interface CardArgs {
   children?: any;
-  title: string;
 }
 
 const Card = (args: CardArgs) => {
